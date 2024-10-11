@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#idsaya {
+    background-color: rgb(10, 82, 10);
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding: 8px 30px;
+}
+
+.headers h1{
+    font-size: 25px;
+    color: white;
+    margin-right: auto;
+}
+.headers nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.headers nav ul li {
+    margin-right: 25px;
+}
+.headers nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
