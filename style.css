@@ -9,7 +9,6 @@ body {
     align-items: center;
     padding: 8px 30px;
 }
-
 .headers h1{
     font-size: 25px;
     color: white;
@@ -28,4 +27,64 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 500;
+}
+
+.container{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container .title{
+    font-size: 45px;
+}
+.container .description{
+    font-size: 30px;
+}
+
+.list-book{
+    margin-top: 50px;
+    padding: 15px;
+    width: auto;
+    display: flex;
+    justify-content: center
+}
+
+.list-book .card{
+    padding: 10px;
+    border: solid gray;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+}
+.list-book .card img{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.list-book .card .info{
+    margin-bottom: 30px;
+}
+.list-book .card .info span {
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+}
+.list-book .card .info .judul{
+    font-weight: 800;
+}
+.list-book .card .info .penulis{
+    font-size: 15px;
+}
+.list-book .card a{
+    text-decoration: none;
+    background-color: rgb(44, 44, 233);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-width: 0;
+    border-radius: 8px;
 }
