@@ -46,7 +46,9 @@ body {
     margin-top: 50px;
     padding: 15px;
     width: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2rem;
     justify-content: center
 }
 
@@ -60,8 +62,8 @@ body {
 }
 .list-book .card img{
     width: 250px;
+    height: 350px;
     margin: auto;
-    margin-bottom: 15px;
 }
 .list-book .card .info{
     margin-bottom: 30px;
@@ -73,6 +75,7 @@ body {
 }
 .list-book .card .info .judul{
     font-weight: 800;
+    text-transform: uppercase;
 }
 .list-book .card .info .penulis{
     font-size: 15px;
