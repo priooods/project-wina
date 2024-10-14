@@ -42,7 +42,7 @@ body {
     font-size: 30px;
 }
 
-.list-book{
+.list-anggota, .list-book{
     margin-top: 50px;
     padding: 15px;
     width: auto;
@@ -52,7 +52,8 @@ body {
     justify-content: center
 }
 
-.list-book .card{
+
+.list-anggota .card, .list-book .card{
     padding: 10px;
     border: solid gray;
     border-width: 1px;
@@ -60,12 +61,17 @@ body {
     border-radius: 5px;
     width: 250px;
 }
-.list-book .card img{
-    width: 250px;
-    height: 350px;
+.list-anggota .card img, .list-book .card img{
+    min-width: 230px;
+    min-height: 330px;
+    max-width: 250px;
+    max-height: 350px;
     margin: auto;
 }
-.list-book .card .info{
+.list-anggota .card img {
+    object-fit: cover;
+}
+.list-anggota .card .info, .list-book .card .info{
     margin-bottom: 30px;
 }
 .list-book .card .info span {
@@ -73,7 +79,7 @@ body {
     text-align: center;
     width: 100px;
 }
-.list-book .card .info .judul{
+.list-anggota .card .info .judul, .list-book .card .info .judul{
     font-weight: 800;
     text-transform: uppercase;
 }
