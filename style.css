@@ -2,6 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
+.content{
+    /* background: url('bg.jpeg') no-repeat center center; */
+    /* background-color: aqua; */
+    padding-top: 30px;
+    background-size: cover;
+}
 #idsaya {
     background-color: rgb(10, 82, 10);
     display: flex;
@@ -32,7 +38,6 @@ body {
 .container{
     display: block;
     text-align: center;
-    margin-top: 30px;
 }
 
 .container .title{
@@ -47,11 +52,28 @@ body {
     padding: 15px;
     width: auto;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2rem;
     justify-content: center
 }
+/* 
+@media only screen and (min-width: 100px) {
+    .list-book {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
 
+@media only screen and (min-width: 1025px) {
+    .list-book {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+    .list-book {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+} */
 
 .list-anggota .card, .list-book .card{
     padding: 10px;
